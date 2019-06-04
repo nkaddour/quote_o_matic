@@ -9,7 +9,7 @@
 }
 
 #items {
-  height: 500px;
+  height: 80%;
   background-color: #AD95BF;
   overflow: scroll;
   padding: 0px;
@@ -29,21 +29,29 @@ body {
   width: 100%;
   min-width: 500px;
 
+
+
 }
 
 tr:nth-child(even) {
   background-color: #905aba;
 }
 
-th.row{
-  background-color: #905aba;
-
-}
 
 th {
   background-color: #ffc34a;
-  text-align: center;
+  border: none !important;
 
+}
+
+th.first {
+  background-color: #AD95BF;
+}
+
+td {
+  border: none !important;
+  color: white;
+  font-weight: 400;
 }
 
 
@@ -52,7 +60,7 @@ th {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 0px;
+  width:10px;
 }
 
 /* Track */
@@ -68,4 +76,8 @@ th {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #ffffff;
+}
+
+::-webkit-scrollbar-corner{
+  background: #905ABA;
 }
