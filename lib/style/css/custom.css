@@ -1,1 +1,23 @@
-custom.css
+#projects {
+  height: 500px;
+  background-color: #fe9f91;
+}
+
+#units {
+  height: 500px;
+  background-color: #82b3dd;
+}
+
+#items {
+  height: 500px;
+  background-color: #AD95BF;
+}
+
+#quote-data{
+  padding: 10px;
+}
+
+body {
+  background:#ffeebd!important;
+}
+
