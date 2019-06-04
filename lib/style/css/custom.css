@@ -11,13 +11,61 @@
 #items {
   height: 500px;
   background-color: #AD95BF;
+  overflow: scroll;
+  padding: 0px;
 }
 
 #quote-data{
-  padding: 10px;
+  padding: 5px;
 }
 
 body {
-  background:#ffeebd!important;
+  background:#ffeebd !important;
 }
 
+.table {
+  overflow: scroll !important;
+  table-layout: fixed;
+  width: 100%;
+  min-width: 500px;
+
+}
+
+tr:nth-child(even) {
+  background-color: #905aba;
+}
+
+th.row{
+  background-color: #905aba;
+
+}
+
+th {
+  background-color: #ffc34a;
+  text-align: center;
+
+}
+
+
+
+/* scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #AD95BF;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #905ABA;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
