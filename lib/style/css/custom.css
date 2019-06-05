@@ -58,6 +58,7 @@ body {
   justify-content: space-around;
   flex-shrink: 2;
   flex-wrap: nowrap;
+  overflow: auto;
 
 }
 
@@ -102,7 +103,7 @@ body {
 
 #text-area {
   border: none;
-  width: 300px;
+  width: 250px;
   border-radius: 0;
   margin-bottom: 10px;
 
@@ -110,6 +111,17 @@ body {
 
 .form-group {
   color: white;
+}
+
+#attach{
+  margin-left: 25px;
+  width: 90%;
+  font-size: 14px;
+}
+
+#floorplan {
+  margin-left: 25px;
+
 }
 
 /* table */
