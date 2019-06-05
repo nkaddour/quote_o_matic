@@ -58,55 +58,77 @@
       projects
     </div>
 
+    <!-- unit card -->
     <div class="col-4" id="units">
       <div class="unit-card">
+
         <div class="row" id="unit-card-row">
+          <span id="unit"><strong>unit #</strong></span>
           <div class="form-group">
-            <select class="btn btn-mini">
-              <option>length</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-            </select>
-            <span class="caret"></span>
-          </div>
-        </div>
-        <div class="row" id="unit-card-row">
-          <div class="form-group">
-            <select class="btn btn-mini">
-              <option>length</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-            </select>
-            <span class="caret"></span>
+            <input class="form-control input-sm" id="inputsm" type="text">
           </div>
           <div class="form-group">
-            <select class="btn btn-mini">
-              <option>length</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-            </select>
-            <span class="caret"></span>
-          </div>
-          <div class="form-group">
-            <select class="btn btn-mini">
-              <option>length</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
+            <span id="theme"><strong>theme:</strong></span>
+            <select class="btn-theme">
+              <option>corporate</option>
+              <option>desert</option>
+              <option>millenial</option>
+              <option>paradise</option>
+              <option>luxe</option>
+              <option>fünhaus</option>
+              <option>custom</option>
             </select>
             <span class="caret"></span>
           </div>
         </div>
 
-        <div class="row" id="unit-card-row">test</div>
-        <div class="row" id="unit-card-row">test</div>
+        <div class="row" id="unit-card-row">
+          <div class="form-group">
+          <span id="unit"><strong>beds:</strong></span>
+            <select class="dropdown">
+              <option>H</option>
+              <option>0</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select>
+            <span class="caret"></span>
+          </div>
+          <div class="form-group">
+            <span id="unit"><strong>baths:</strong></span>
+            <select class="dropdown">
+              <option>0</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select>
+            <span class="caret"></span>
+          </div>
+          <span id="unit"><strong>ceiling</strong></span>
+          <div class="form-group">
+            <div class="form-group">
+              <input class="form-control input-sm" id="input_ceiling" type="text">
+            </div>
+            <span class="caret"></span>
+          </div>
+        </div>
+
+        <div class="row" id="unit-card-row">
+
+          <div class="form-group">
+            <span id="floorplan"><strong>floorplan</strong></span>
+            <input type="file" id="attach" >
+          </div>
+        </div>
+
+        <div class="row" id="unit-card-row">
+          <div class="form-group">
+            <label for="text-area">notes</label>
+            <textarea class="form-control" id="text-area" rows="3"></textarea>
+          </div>
+        </div>
       </div>
     </div>
 

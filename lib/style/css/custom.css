@@ -10,17 +10,17 @@ body {
 }
 
 #projects {
-  height: 1000px;
+  height: 750px;
   background-color: #fe9f91;
 }
 
 #units {
-  height: 1000px;
+  height: 750px;
   background-color: #82b3dd;
 }
 
 #items {
-  height: 1000px;
+  height: 750px;
   background-color: #AD95BF;
   overflow: scroll;
   padding: 0px;
@@ -28,18 +28,25 @@ body {
 
 #quote-data{
   padding: 5px;
+  width: 100%;
 }
 
 /* unit cards */
 
 .unit-card {
   width: auto;
-  height: 200px;
+  height: auto;
   background-color: #0072D3;
   padding: 10px;
   margin-top: 5px;
   vertical-align: middle;
+  overflow: auto;
+  min-width: 300px;
 
+}
+
+.unit-card span {
+  color: white;
 }
 
 #unit-card-row{
@@ -48,6 +55,72 @@ body {
   padding: 10px;
   margin: 0 auto;
   display: flex;
+  justify-content: space-around;
+  flex-shrink: 2;
+  flex-wrap: nowrap;
+  overflow: auto;
+
+}
+
+/* inputs */
+
+#inputsm{
+  width: 55px;
+  height: 25px;
+  font-size: 12px;
+  border-radius: 0;
+  border: none;
+
+}
+
+#input_ceiling {
+  width: 40px;
+  height: 25px;
+  font-size: 12px;
+  border-radius: 0;
+  border: none;
+}
+
+.form-control-sm {
+  border-radius: 0;
+  border: none;
+  text-align: center;
+  max-width: 75%;
+}
+
+.btn-theme{
+  height: 25px;
+  background-color: white;
+  border-radius: 0;
+  border: none;
+
+}
+
+.dropdown {
+  border-radius: 0;
+  border: none;
+}
+
+#text-area {
+  border: none;
+  width: 250px;
+  border-radius: 0;
+  margin-bottom: 10px;
+
+}
+
+.form-group {
+  color: white;
+}
+
+#attach{
+  margin-left: 25px;
+  width: 90%;
+  font-size: 14px;
+}
+
+#floorplan {
+  margin-left: 25px;
 
 }
 
