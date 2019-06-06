@@ -19,12 +19,16 @@ body {
   background-color: #82b3dd;
   float: left;
   display: inline-table;
+  border-radius: 5px;
+  float: left;
+  padding-top: 5px;
 
 }
 
-.col-xs-12#units {
+#units.col-xs-12 {
   height: auto;
   padding-bottom: 10px;
+  width: 400px;
 
 }
 
@@ -34,6 +38,12 @@ body {
   overflow: scroll;
   padding: 0px;
   border: 10px solid #ffc34a;
+  border-radius: 5px;
+  float: right;
+}
+
+#items.col-xs-12 {
+  float: left;
 }
 
 #quote-data{
@@ -52,6 +62,8 @@ body {
   vertical-align: middle;
   overflow: auto;
   min-width: 300px;
+  border-radius: 5px;
+
 
 }
 
@@ -77,7 +89,6 @@ body {
   width: 55px;
   height: 25px;
   font-size: 12px;
-  border-radius: 0;
   border: none;
 }
 
@@ -85,16 +96,15 @@ body {
   width: 40px;
   height: 25px;
   font-size: 12px;
-  border-radius: 0;
   border: none;
 }
 
 #item_number {
   height: 25px;
+  vertical-align: center;
 }
 
 .form-control-sm {
-  border-radius: 0;
   border: none;
   text-align: center;
   max-width: 75%;
@@ -103,20 +113,18 @@ body {
 .btn-theme{
   height: 25px;
   background-color: white;
-  border-radius: 0;
   border: none;
 
 }
 
 .dropdown {
-  border-radius: 0;
   border: none;
+  position: relative;
 }
 
 #text-area {
   border: none;
   width: 300px;
-  border-radius: 0;
   margin-bottom: 10px;
 }
 
@@ -127,7 +135,7 @@ body {
 
 #attach{
   margin-left: 25px;
-  width: 90%;
+  width: 70%;
   font-size: 14px;
 }
 
@@ -145,15 +153,16 @@ body {
 }
 
 .table td {
-  padding: .2em !important;
+
+  padding: .2em 0em .2em .5em;
   vertical-align: bottom !important;
   text-align: center;
+
 }
 
 tr:nth-child(even) {
   background-color: #905aba;
 }
-
 
 th {
   background-color: #ffc34a;
@@ -169,19 +178,10 @@ td {
   border: none !important;
   color: white;
   font-weight: 400;
-  vertical-align: center;
-}
+  font-size: 14px;
+  white-space: nowrap;
+  text-align: right;
 
-/* dropdowns */
-
-.dropdown {
-  position: relative;
-}
-
-select.btn-mini {
-    height: auto;
-    line-height: 14px;
-    background-color: white;
 }
 
 /* scrollbar */
